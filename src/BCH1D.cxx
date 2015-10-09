@@ -414,7 +414,12 @@ void BCH1D::Draw(std::string options, std::vector<double> intervals)
    }
 
    // normalize histogram to unity
-   fHistogram->Scale(1./fHistogram->Integral("width"));
+   // FIXME
+   //fHistogram->Scale(1./fHistogram->Integral("width"));
+   flag_smooth1 = false;
+   flag_smooth3 = false;
+   flag_smooth5 = false;
+   flag_smooth10 = false;
 
    // prepare legend
    TLegend* legend = new TLegend();

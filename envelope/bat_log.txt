@@ -1,0 +1,318 @@
+ +------------------------------------------------------+
+ |                                                      |
+ | BAT version 0.9.4.1                                  |
+ | Copyright (C) 2007-2014, the BAT core developer team |
+ | All rights reserved.                                 |
+ |                                                      |
+ | For the licensing terms see doc/COPYING              |
+ | For documentation see http://mpp.mpg.de/bat          |
+ |                                                      |
+ +------------------------------------------------------+
+Summary : Opening logfile bat_log.txt
+Summary : Marginalize using Metropolis
+Summary : Pre-run Metropolis MCMC...
+Summary :  --> Perform MCMC pre-run with 5 chains, each with maximum 1000000 iterations
+Detail  :  --> Iteration 1000
+Detail  :  --> Iteration 2000
+Detail  :  --> Iteration 3000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 3000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 3.90%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.33%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 4.00%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 0.90%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 4.30%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.87%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 3.20%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.77%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 3.27%) in chain 4. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.43%) in chain 4. Set scale to 0.25
+Detail  :  --> Iteration 4000
+Detail  :  --> Iteration 5000
+Detail  :  --> Iteration 6000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 6000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 14.33%) in chain 0. Set scale to 0.125
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 4.70%) in chain 0. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 12.47%) in chain 1. Set scale to 0.125
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.53%) in chain 1. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 13.77%) in chain 2. Set scale to 0.125
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.23%) in chain 2. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 12.80%) in chain 3. Set scale to 0.125
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.87%) in chain 3. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 14.27%) in chain 4. Set scale to 0.125
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.10%) in chain 4. Set scale to 0.0625
+Detail  :  --> Iteration 7000
+Detail  :  --> Iteration 8000
+Detail  :  --> Iteration 9000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 9000 iterations.
+Detail  :      * Efficiency status: Efficiencies within pre-defined ranges.
+Summary :  --> Set of 5 Markov chains converged within 9000 iterations and all scales are adjusted.
+Summary :  --> Markov chains ran for 9001 iterations.
+Detail  :  --> Average efficiencies:
+Detail  :  -->      parameter    0 :  17.02%
+Detail  :  -->      parameter    1 :  24.67%
+Detail  :  -->      parameter    2 :  19.57%
+Detail  :  --> Average scale factors:
+Detail  :  -->      parameter    0 :  100.00%
+Detail  :  -->      parameter    1 :  12.50%
+Detail  :  -->      parameter    2 :  6.25%
+Summary : Run Metropolis MCMC...
+Summary :  --> Perform MCMC run with 5 chains, each with 10000 iterations.
+Detail  :  --> iteration number 1000 (10.00%)
+Detail  :  --> iteration number 2000 (20.00%)
+Detail  :  --> iteration number 3000 (30.00%)
+Detail  :  --> iteration number 4000 (40.00%)
+Detail  :  --> iteration number 5000 (50.00%)
+Detail  :  --> iteration number 6000 (60.00%)
+Detail  :  --> iteration number 7000 (70.00%)
+Detail  :  --> iteration number 8000 (80.00%)
+Detail  :  --> iteration number 9000 (90.00%)
+Detail  :  --> iteration number 10000 (100.00%)
+Summary :  --> Markov chains ran for 10000 iterations.
+Detail  :  --> Global mode from MCMC:
+Detail  :  -->      parameter 0:   0.9292
+Detail  :  -->      parameter 1:   -4.914
+Detail  :  -->      parameter 2:   4254
+Summary : Finding mode using Minuit
+Summary : Printing all marginalized distributions (3 x 1D + 3 x 2D = 6) into file bat_plots_pow1.pdf
+Summary : Marginalize using Metropolis
+Summary : Pre-run Metropolis MCMC...
+Summary :  --> Perform MCMC pre-run with 5 chains, each with maximum 1000000 iterations
+Detail  :  --> Iteration 1000
+Detail  :  --> Iteration 2000
+Detail  :  --> Iteration 3000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 3000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.43%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.60%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.50%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.83%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.43%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.60%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.77%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.73%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.30%) in chain 4. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.40%) in chain 4. Set scale to 0.25
+Detail  :  --> Iteration 4000
+Detail  :  --> Iteration 5000
+Detail  :  --> Iteration 6000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 6000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 1.23%) in chain 0. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 4.77%) in chain 0. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 1.30%) in chain 1. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.30%) in chain 1. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 1.07%) in chain 2. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.27%) in chain 2. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 1.03%) in chain 3. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.97%) in chain 3. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 1.23%) in chain 4. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.17%) in chain 4. Set scale to 0.0625
+Detail  :  --> Iteration 7000
+Detail  :  --> Iteration 8000
+Detail  :  --> Iteration 9000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 9000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 4.70%) in chain 0. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 4.53%) in chain 1. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 5.27%) in chain 2. Set scale to 0.01562
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 14.83%) in chain 3. Set scale to 0.5
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 3.93%) in chain 3. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 3.83%) in chain 4. Set scale to 0.01562
+Detail  :  --> Iteration 10000
+Detail  :  --> Iteration 11000
+Detail  :  --> Iteration 12000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 12000 iterations.
+Detail  :      * Efficiency status: Efficiencies within pre-defined ranges.
+Summary :  --> Set of 5 Markov chains converged within 12000 iterations and all scales are adjusted.
+Summary :  --> Markov chains ran for 12001 iterations.
+Detail  :  --> Average efficiencies:
+Detail  :  -->      parameter    0 :  17.92%
+Detail  :  -->      parameter    1 :  17.51%
+Detail  :  -->      parameter    2 :  19.27%
+Detail  :  --> Average scale factors:
+Detail  :  -->      parameter    0 :  90.00%
+Detail  :  -->      parameter    1 :  1.56%
+Detail  :  -->      parameter    2 :  6.25%
+Summary : Run Metropolis MCMC...
+Summary :  --> Perform MCMC run with 5 chains, each with 10000 iterations.
+Detail  :  --> iteration number 1000 (10.00%)
+Detail  :  --> iteration number 2000 (20.00%)
+Detail  :  --> iteration number 3000 (30.00%)
+Detail  :  --> iteration number 4000 (40.00%)
+Detail  :  --> iteration number 5000 (50.00%)
+Detail  :  --> iteration number 6000 (60.00%)
+Detail  :  --> iteration number 7000 (70.00%)
+Detail  :  --> iteration number 8000 (80.00%)
+Detail  :  --> iteration number 9000 (90.00%)
+Detail  :  --> iteration number 10000 (100.00%)
+Summary :  --> Markov chains ran for 10000 iterations.
+Detail  :  --> Global mode from MCMC:
+Detail  :  -->      parameter 0:   0.7491
+Detail  :  -->      parameter 1:   -0.03859
+Detail  :  -->      parameter 2:   4266
+Summary : Finding mode using Minuit
+Summary : Printing all marginalized distributions (3 x 1D + 3 x 2D = 6) into file bat_plots_exp1.pdf
+Warning : BCH1D::GetSmallestInterval : The requested content of 68% fits within one bin.
+Warning : BCH1D::GetSmallestInterval : MAKE FINER BINNING (OR CHANGE RANGE) !!!
+Summary : Marginalize using Metropolis
+Summary : Pre-run Metropolis MCMC...
+Summary :  --> Perform MCMC pre-run with 5 chains, each with maximum 1000000 iterations
+Detail  :  --> Iteration 1000
+Detail  :  --> Iteration 2000
+Detail  :  --> Iteration 3000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 3000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.53%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 14.97%) in chain 1. Set scale to 0.5
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.47%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.57%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.43%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.63%) in chain 4. Set scale to 0.25
+Detail  :  --> Iteration 4000
+Detail  :  --> Iteration 5000
+Detail  :  --> Iteration 6000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 6000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.33%) in chain 0. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 6.17%) in chain 1. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.13%) in chain 2. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.90%) in chain 3. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.00%) in chain 4. Set scale to 0.0625
+Detail  :  --> Iteration 7000
+Detail  :  --> Iteration 8000
+Detail  :  --> Iteration 9000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 9000 iterations.
+Detail  :      * Efficiency status: Efficiencies within pre-defined ranges.
+Summary :  --> Set of 5 Markov chains converged within 9000 iterations and all scales are adjusted.
+Summary :  --> Markov chains ran for 9001 iterations.
+Detail  :  --> Average efficiencies:
+Detail  :  -->      parameter    0 :  19.09%
+Detail  :  -->      parameter    1 :  20.16%
+Detail  :  -->      parameter    2 :  19.43%
+Detail  :  --> Average scale factors:
+Detail  :  -->      parameter    0 :  90.00%
+Detail  :  -->      parameter    1 :  100.00%
+Detail  :  -->      parameter    2 :  6.25%
+Summary : Run Metropolis MCMC...
+Summary :  --> Perform MCMC run with 5 chains, each with 10000 iterations.
+Detail  :  --> iteration number 1000 (10.00%)
+Detail  :  --> iteration number 2000 (20.00%)
+Detail  :  --> iteration number 3000 (30.00%)
+Detail  :  --> iteration number 4000 (40.00%)
+Detail  :  --> iteration number 5000 (50.00%)
+Detail  :  --> iteration number 6000 (60.00%)
+Detail  :  --> iteration number 7000 (70.00%)
+Detail  :  --> iteration number 8000 (80.00%)
+Detail  :  --> iteration number 9000 (90.00%)
+Detail  :  --> iteration number 10000 (100.00%)
+Summary :  --> Markov chains ran for 10000 iterations.
+Detail  :  --> Global mode from MCMC:
+Detail  :  -->      parameter 0:   0.9424
+Detail  :  -->      parameter 1:   0.08783
+Detail  :  -->      parameter 2:   4253
+Summary : Finding mode using Minuit
+Summary : Printing all marginalized distributions (3 x 1D + 3 x 2D = 6) into file bat_plots_lau1.pdf
+Summary : Marginalize using Metropolis
+Summary : Pre-run Metropolis MCMC...
+Summary :  --> Perform MCMC pre-run with 5 chains, each with maximum 1000000 iterations
+Detail  :  --> Iteration 1000
+Detail  :  --> Iteration 2000
+Detail  :  --> Iteration 3000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 3000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 9.53%) in chain 0. Set scale to 0.5
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.70%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.43%) in chain 0. Set scale to 0.25
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 9.97%) in chain 1. Set scale to 0.5
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.93%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.33%) in chain 1. Set scale to 0.25
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 8.37%) in chain 2. Set scale to 0.5
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.67%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.43%) in chain 2. Set scale to 0.25
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 9.27%) in chain 3. Set scale to 0.5
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 1.10%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.53%) in chain 3. Set scale to 0.25
+Detail  :          Efficiency of parameter 0 dropped below 15.00% (eps = 11.37%) in chain 4. Set scale to 0.5
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 0.73%) in chain 4. Set scale to 0.25
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 1.60%) in chain 4. Set scale to 0.25
+Detail  :  --> Iteration 4000
+Detail  :  --> Iteration 5000
+Detail  :  --> Iteration 6000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 6000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 2.47%) in chain 0. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 4.50%) in chain 0. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 2.40%) in chain 1. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.10%) in chain 1. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 2.33%) in chain 2. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 4.97%) in chain 2. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 2.23%) in chain 3. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.10%) in chain 3. Set scale to 0.0625
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 2.67%) in chain 4. Set scale to 0.0625
+Detail  :          Efficiency of parameter 2 dropped below 15.00% (eps = 5.00%) in chain 4. Set scale to 0.0625
+Detail  :  --> Iteration 7000
+Detail  :  --> Iteration 8000
+Detail  :  --> Iteration 9000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 9000 iterations.
+Detail  :      * Efficiency status: Efficiencies not within pre-defined range.
+Detail  :        - Efficiencies:
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 6.17%) in chain 0. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 5.43%) in chain 1. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 6.40%) in chain 2. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 6.73%) in chain 3. Set scale to 0.01562
+Detail  :          Efficiency of parameter 1 dropped below 15.00% (eps = 5.97%) in chain 4. Set scale to 0.01562
+Detail  :  --> Iteration 10000
+Detail  :  --> Iteration 11000
+Detail  :  --> Iteration 12000
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 12000 iterations.
+Detail  :        - R-Values:
+Detail  :          parameter    0 :  1.000412
+Detail  :          parameter    1 :  1.203259 <--
+Detail  :          parameter    2 :  1.000846
+Detail  :          log-likelihood :  1.000365
+Detail  :      * Efficiency status: Efficiencies within pre-defined ranges.
+Detail  :  --> Iteration 13000
+Detail  :  --> Iteration 14000
+Detail  :  --> Iteration 15000
+Detail  :      * Convergence status: Set of 5 Markov chains converged within 15000 iterations.
+Detail  :      * Efficiency status: Efficiencies within pre-defined ranges.
+Summary :  --> Set of 5 Markov chains converged within 15000 iterations and all scales are adjusted.
+Summary :  --> Markov chains ran for 15001 iterations.
+Detail  :  --> Average efficiencies:
+Detail  :  -->      parameter    0 :  18.47%
+Detail  :  -->      parameter    1 :  20.58%
+Detail  :  -->      parameter    2 :  19.63%
+Detail  :  --> Average scale factors:
+Detail  :  -->      parameter    0 :  50.00%
+Detail  :  -->      parameter    1 :  1.56%
+Detail  :  -->      parameter    2 :  6.25%
+Summary : Run Metropolis MCMC...
+Summary :  --> Perform MCMC run with 5 chains, each with 10000 iterations.
+Detail  :  --> iteration number 1000 (10.00%)
+Detail  :  --> iteration number 2000 (20.00%)
+Detail  :  --> iteration number 3000 (30.00%)
+Detail  :  --> iteration number 4000 (40.00%)
+Detail  :  --> iteration number 5000 (50.00%)
+Detail  :  --> iteration number 6000 (60.00%)
+Detail  :  --> iteration number 7000 (70.00%)
+Detail  :  --> iteration number 8000 (80.00%)
+Detail  :  --> iteration number 9000 (90.00%)
+Detail  :  --> iteration number 10000 (100.00%)
+Summary :  --> Markov chains ran for 10000 iterations.
+Detail  :  --> Global mode from MCMC:
+Detail  :  -->      parameter 0:   0.007558
+Detail  :  -->      parameter 1:   0.4337
+Detail  :  -->      parameter 2:   4297
+Summary : Finding mode using Minuit
+Summary : Printing all marginalized distributions (3 x 1D + 3 x 2D = 6) into file bat_plots_bern1.pdf

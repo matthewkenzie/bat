@@ -220,7 +220,8 @@ double BCRooInterface::LogAPrioriProbability(const std::vector<double> & paramet
    delete tmpArgSet;
    if (prob<1e-300)
       prob = 1e-300;
-   return log(prob);
+   const double c = 1.; // CORRECTION VALUE FIXME
+   return log(prob) + c*parameters.size();
 }
 
 void BCRooInterface::SetNumBins(const char * parname, int nbins)

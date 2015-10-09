@@ -1,0 +1,87 @@
+
+ -----------------------------------------------------
+ Summary
+ -----------------------------------------------------
+
+ Model summary
+ =============
+ Model: 
+ Number of parameters: 3
+ List of Parameters and ranges:
+  (0) Parameter "r": [0, 5]
+  (1) Parameter "env_pdf_1_8TeV_pow1_p1": [-10, 0]
+  (2) Parameter "nbkg": [0, 10000]
+
+ Results of the optimization
+ ===========================
+ Optimization algorithm used: Minuit
+ Log of the maximum posterior: inf
+ List of parameters and global mode:
+  (0) Parameter "r": 0.927558 +- 0.4828
+  (1) Parameter "env_pdf_1_8TeV_pow1_p1": -4.90699 +- 0.177501
+  (2) Parameter "nbkg": 4253.9 +- 69.4575
+
+ Results of the marginalization
+ ==============================
+ Marginalization algorithm used: Metropolis
+ List of parameters and properties of the marginalized
+ distributions:
+  (0) Parameter "r":
+      Mean +- sqrt(V):                0.9741 +- 0.4598
+      Median +- central 68% interval: 0.957 +  0.4804 - 0.457
+      (Marginalized) mode:            0.9833
+       5% quantile:                   0.2434
+      10% quantile:                   0.3809
+      16% quantile:                   0.5
+      84% quantile:                   1.458
+      90% quantile:                   1.584
+      95% quantile:                   1.764
+      Smallest interval(s) containing at least 68% and local mode(s):
+       (0.4667, 1.467) (local mode at 0.9833 with rel. height 1; rel. area 0.6964)
+
+  (1) Parameter "env_pdf_1_8TeV_pow1_p1":
+      Mean +- sqrt(V):                -4.908 +- 0.1778
+      Median +- central 68% interval: -4.908 +  0.1773 - 0.1794
+      (Marginalized) mode:            -4.9
+       5% quantile:                   -5.2
+      10% quantile:                   -5.137
+      16% quantile:                   -5.087
+      84% quantile:                   -4.722
+      90% quantile:                   -4.677
+      95% quantile:                   -4.612
+      Smallest interval(s) containing at least 68% and local mode(s):
+       (-5.133, -4.667) (local mode at -4.9 with rel. height 1; rel. area 0.7341)
+
+  (2) Parameter "nbkg":
+      Mean +- sqrt(V):                4254 +- 68.83
+      Median +- central 68% interval: 4252 +  72.82 - 74.32
+      (Marginalized) mode:            4233
+       5% quantile:                   4137
+      10% quantile:                   4156
+      16% quantile:                   4178
+      84% quantile:                   4327
+      90% quantile:                   4348
+      95% quantile:                   4379
+      Smallest interval(s) containing at least 68% and local mode(s):
+       (4133, 4400) (local mode at 4233 with rel. height 1; rel. area 0.837)
+
+ Status of the MCMC
+ ==================
+ Convergence reached:                    yes
+ Number of iterations until convergence: 9000
+ Number of chains:                       5
+ Number of iterations per chain:         100000
+ Average pre-run efficiencies:
+  (0) Parameter "r": 16.47%
+  (1) Parameter "env_pdf_1_8TeV_pow1_p1": 24.33%
+  (2) Parameter "nbkg": 19.43%
+
+ -----------------------------------------------------
+ Notation:
+ Mean        : mean value of the marg. pdf
+ Median      : median of the marg. pdf
+ Marg. mode  : most probable value of the marg. pdf
+ V           : Variance of the marg. pdf
+ Quantiles   : most commonly used quantiles
+ -----------------------------------------------------
+
